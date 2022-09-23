@@ -1,0 +1,111 @@
+#include<reg52.h>
+void delay(unsigned int i)
+{
+	unsigned int j;
+	unsigned char k;
+	for (j=i;j>0;j--)
+	   for(k=100;k>0;k--);
+}
+void main()
+{
+	P1 = 0xFF;   
+		delay(50);
+	P1 = 0xFE;  
+		delay(50);
+	P1 = 0xFD;  
+		delay(50);
+	P1 = 0xFB;  
+		delay(50);
+	P1 = 0xF7;  
+		delay(50);
+	P1 = 0xEF;  
+		delay(50);
+	P1 = 0xDF;  
+		delay(50);
+	P1 = 0xBF;  
+		delay(50);
+  P1 = 0x7F;  
+		delay(50);
+	P1 = 0xBF;  	
+		delay(50);
+	P1 = 0xDF;  	
+		delay(50);
+	P1 = 0xEF;  	
+		delay(50);
+	P1 = 0xF7;  	
+		delay(50);
+	P1 = 0xFB;  	
+		delay(50);
+	P1 = 0xFD;  	
+		delay(50);
+	P1 = 0xFE;  	
+		delay(50);
+	P1 = 0xFF;  	
+		delay(50);
+	P1 = 0x7E;  	
+		delay(50);
+	P1 = 0x3C;  	
+		delay(50);
+	P1 = 0x18;  	
+		delay(50);
+	P1 = 0x00;  	
+		delay(50);
+	P1 = 0x81;  	
+		delay(50);
+	P1 = 0xC3;  	
+		delay(50);
+	P1 = 0xE7;  	
+		delay(50);
+	P1 = 0xFF;  	
+		delay(50);
+	P1 = 0xE7;  	
+		delay(50);
+	P1 = 0xC3;  	
+		delay(50);
+	P1 = 0x81;  	
+		delay(50);
+	P1 = 0x00;  	
+		delay(50);
+	P1 = 0x18;  	
+		delay(50);
+	P1 = 0x3C;  	
+		delay(50);
+	P1 = 0x7E;  	
+		delay(50);
+	P1 = 0xFF;  	
+		delay(50);
+	P1 = 0x7F;   
+		delay(50);
+	P1 = 0x3F;  
+		delay(50);
+	P1 = 0x1F;  
+		delay(50);
+	P1 = 0x0F;  
+		delay(50);
+	P1 = 0x07;  
+		delay(50);
+	P1 = 0x03;  
+		delay(50);
+	P1 = 0x01;  
+		delay(50);
+	P1 = 0x00;  
+		delay(50);
+  P1 = 0xFE;  
+		delay(50);
+	P1 = 0xFC;  	
+		delay(50);
+	P1 = 0xF8;  	
+		delay(50);
+	P1 = 0xF0;  	
+		delay(50);
+	P1 = 0xE0;  	
+		delay(50);
+	P1 = 0xC0;  	
+		delay(50);
+	P1 = 0x80;  	
+		delay(50);
+	P1 = 0x00;
+	  delay(50);
+	
+		
+}
